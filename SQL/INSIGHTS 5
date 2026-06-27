@@ -1,0 +1,37 @@
+\\Review of Business Example 2 (BE2)
+Your output:
+| Profit Category | Orders |
+| --------------- | -----: |
+| Low Profit      |  7,233 |
+| Loss            |  1,871 |
+| Medium Profit   |    773 |
+| High Profit     |    117 |
+
+\\What does this tell us?
+"7233 rows."
+We say:
+Approximately 72% of all orders generate only a small profit.
+Let's calculate the percentages.
+
+Total Orders = 9994
+
+| Category      | Orders | Approx. % |
+| ------------- | -----: | --------: |
+| Low Profit    |   7233 | **72.4%** |
+| Loss          |   1871 | **18.7%** |
+| Medium Profit |    773 |  **7.7%** |
+| High Profit   |    117 |  **1.2%** |
+
+\\Business Insight
+This is actually a huge finding.
+Although the company is profitable overall,
+
+72% of orders generate only a small profit.
+Almost 19% of orders actually lose money.
+Only 1% of orders generate high profits.
+
+\\Recommendation
+Instead of trying to increase sales, management should identify:
+Why are so many orders low profit?
+Why are nearly one in five orders making losses?
+What characteristics do high-profit orders share?
