@@ -164,3 +164,67 @@ The dashboard enables stakeholders to:
 ## 📜 License :
 
 This project is intended for educational and portfolio purposes only.
+
+---
+
+## 📂 Repository Structure :
+```text
+main
+│
+├── Dataset/
+│   └── SampleSuperstore.csv
+│
+├── Images/
+│   └── dashboard.png
+│ 
+├── Power_BI/
+│   ├── Dashboard_Structure
+│   └── Retail-Sales-Analysis.pbix
+│   
+├── SQL/
+│   ├── Advance_SQL/
+│   │   ├── CTEs/
+│   │   │   ├── CTE EX1.sql
+│   │   │   ├── CTE EX2.sql
+│   │   │   ├── Highest-selling sub-category within each category.sql
+│   │   │   ├── State Profit CTE Report.sql
+│   │   │   └── States Above Average Profit CTE Report.sql
+│   │   │
+│   │   ├── Case/
+│   │   │   ├── BE1.sql
+│   │   │   ├── BE2.sql
+│   │   │   ├── Discount On Orders.sql
+│   │   │   └──State is Profitable or Loss Making.sql
+│   │   │
+│   │   └─── Window_Functions/
+│   │       ├── Rank Function Ex1.sql
+│   │       └── Rank Function Ex2.sql
+│   │   
+│   └───  Basic_SQL/
+│       ├── Average Discount by Category.sql
+│       ├── DASHBOARD STRUCTURE
+│       ├── INSIGHTS 1
+│       ├── INSIGHTS 2
+│       ├── INSIGHTS 3
+│       ├── INSIGHTS 4
+│       ├── INSIGHTS 5
+│       ├── Least Profitable 10 States.sql
+│       ├── Profit Margin by Category.sql
+│       ├── Profit Margin by Region.sql
+│       ├── Profit by Category.sql
+│       ├── Profit by Region.sql
+│       ├── Profit by Segment.sql
+│       ├── Sales By Category.sql
+│       ├── Sales and Profit by Ship Mode.sql
+│       ├── Sales by Region.sql
+│       ├── Sales by Segment.sql
+│       ├── Top 10 States by Profit.sql
+│       ├── Top 10 States by Sales.sql
+│       ├── Top 10 Sub-Categories by Profit.sql
+│       ├── Total Profit.sql
+│       ├── Total Quantity Sold.sql
+│       └── Total Sales.sql
+│  
+└── README.md
+```
+
