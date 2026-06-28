@@ -1,87 +1,166 @@
-# Retail-Sales-Analysis
-Project Overview
+# 📊 Retail Sales Analysis
 
-This project analyzes a retail sales dataset using MySQL for data analysis and Power BI for interactive dashboard creation.
-The objective is to identify sales trends, profitability, regional performance, customer segment contributions, and business opportunities through data-driven insights.
+A comprehensive retail sales analytics project that leverages **MySQL** for data analysis and **Power BI** for interactive business intelligence dashboards. The project transforms raw sales data into actionable insights, enabling data-driven decision-making across sales, profitability, customer segments, and regional performance.
 
-Tools Used :
-1. MySQL 
-2. Power BI
-3. Microsoft Excel
+---
 
-Dataset :
-1. Rows: 9,995
-2. Columns: 13
+## 📌 Project Overview :
 
-Features :
-1. Ship Mode
-2. Segment
-3. CountryCity
-4. State
-5. Postal Code
-6. Region
-7. Category
-8. Sub-Category
-9. Sales, Quantity
-10. Discount
-11. Profit
+The objective of this project is to analyze a retail sales dataset to uncover key business trends, evaluate profitability, and identify opportunities for growth. SQL was used to perform data extraction and business analysis, while Power BI was used to develop an interactive dashboard for visualizing key performance indicators (KPIs) and business metrics.
 
-SQL Skills Demonstrated :
-1. SELECT
-2. WHERE
-3. GROUP BY
-4. HAVING
-5. Aggregate Functions
-6. CASE WHEN
-7. Common Table Expressions (CTEs)
-8. Window Functions
-9. Business Analysis
+---
 
-Dashboard Preview :
+## 🛠️ Tech Stack :
 
-<img width="1327" height="754" alt="dashboard" src="https://github.com/user-attachments/assets/45e05f0b-2665-40b3-88bb-320776fea31a" />
+* **Database:** MySQL
+* **Visualization:** Power BI
+* **Data Source:** Microsoft Excel
 
+---
 
-KPI Summary : KPI	Value
-| KPI                 |         Value |
-| ------------------- | ------------: |
-| Total Sales         | $2,297,200.86 |
-| Total Profit        |   $286,397.02 |
-| Total Quantity Sold |        37,873 |
-| Profit Margin       |        12.47% |
+## 📂 Dataset Information :
 
-Business Insights :
-1. Technology is the strongest-performing category
-highest sales
-highest profit,
-profit margin of 17.40%.
-2. Furniture requires attention :
-Despite generating over $741K in sales, Furniture achieved a profit margin of only 2.49%, indicating pricing or discounting challenges.
-3. West Region leads performance :
-The West region recorded the highest sales and profitability, while the Central region showed the lowest profit margin.
-4. Consumer Segment drives revenue :
-Consumer customers contributed approximately 51% of total sales, making them the most valuable customer segment.
-5. Standard Class dominates sales :
-Standard Class shipping generated the largest share of sales compared to other shipping methods.
-6. California generated the highest sales :
-California contributed the highest revenue among all states, followed by New York and Texas.
+| Attribute   | Details |
+| ----------- | ------- |
+| **Rows**    | 9,995   |
+| **Columns** | 13      |
 
-Business Recommendations :
-1. Increase investment in Technology products.
-2. Review Furniture pricing and discount strategy.
-3. Improve profitability in Central region.
-4. Focus marketing campaigns on Consumer customers.
-5. Investigate loss-making states such as Texas and Pennsylvania.
+### Dataset Features :
 
-Dashboard Features :
-1. KPI Cards
-2. Category Performance
-3. Regional Sales Analysis
-4. Customer Segment Analysis
-5. Shipping Mode Analysis
-6. Top States by Sales
-7. Top Profitable Sub-Categories
-8. Interactive Slicers
+* Ship Mode
+* Customer Segment
+* Country
+* City
+* State
+* Postal Code
+* Region
+* Category
+* Sub-Category
+* Sales
+* Quantity
+* Discount
+* Profit
 
-Project Outcome :
-This dashboard provides management with a comprehensive overview of sales performance and profitability, enabling informed business decisions through interactive visual analytics.
+---
+
+## 💡 SQL Concepts Demonstrated :
+
+This project showcases practical SQL skills used in real-world business analytics.
+
+* Data Retrieval using `SELECT`
+* Data Filtering with `WHERE`
+* Aggregation using `GROUP BY`
+* Conditional Filtering using `HAVING`
+* Aggregate Functions
+* Conditional Logic (`CASE WHEN`)
+* Common Table Expressions (CTEs)
+* Window Functions
+* Business Performance Analysis
+
+---
+
+# 📈 Dashboard Preview :
+
+<p align="center">
+<img width="1327" height="754" alt="Retail Sales Dashboard" src="https://github.com/user-attachments/assets/45e05f0b-2665-40b3-88bb-320776fea31a">
+</p>
+
+---
+
+# 📊 Key Performance Indicators (KPIs) :
+
+| KPI                     |             Value |
+| ----------------------- | ----------------: |
+| **Total Sales**         | **$2,297,200.86** |
+| **Total Profit**        |   **$286,397.02** |
+| **Total Quantity Sold** |        **37,873** |
+| **Profit Margin**       |        **12.47%** |
+
+---
+
+# 🔍 Business Insights 
+
+### 💻 Technology Category Leads Performance :
+
+* Generated the highest sales and profit.
+* Achieved an impressive **17.40% profit margin**, making it the most profitable product category.
+
+### 🪑 Furniture Needs Optimization :
+
+* Generated over **$741K** in revenue.
+* Produced a relatively low **2.49% profit margin**, suggesting pricing or discount strategy improvements are needed.
+
+### 🌎 Regional Performance :
+ 
+* The **West Region** recorded the highest sales and overall profitability.
+* The **Central Region** exhibited the lowest profit margin and presents opportunities for operational improvement.
+
+### 👥 Customer Segment Analysis :
+
+* The **Consumer** segment contributed approximately **51% of total sales**, making it the organization's primary revenue driver.
+
+### 🚚 Shipping Analysis :
+
+* **Standard Class** shipping accounted for the largest share of total sales and remained the most frequently used shipping method.
+
+### 📍 Geographic Insights :
+
+* **California** generated the highest revenue, followed by **New York** and **Texas**.
+
+---
+
+# 📈 Business Recommendations 
+
+* Increase investment in high-performing **Technology** products.
+* Review pricing and discount strategies for the **Furniture** category.
+* Improve profitability in the **Central Region** through operational optimization.
+* Strengthen marketing campaigns targeting **Consumer** customers.
+* Investigate underperforming states such as **Texas** and **Pennsylvania** to identify profitability challenges.
+
+---
+
+# 📊 Dashboard Features
+
+The interactive Power BI dashboard includes:
+
+* Executive KPI Cards
+* Category-wise Performance Analysis
+* Regional Sales & Profit Analysis
+* Customer Segment Distribution
+* Shipping Mode Performance
+* Top States by Sales
+* Most Profitable Sub-Categories
+* Interactive Filters & Slicers
+* Dynamic Visualizations
+
+---
+
+# 🎯 Project Outcome
+
+This project demonstrates how SQL and Power BI can be integrated to transform raw transactional data into meaningful business intelligence.
+
+The dashboard enables stakeholders to:
+
+* Monitor sales performance in real time.
+* Evaluate profitability across multiple business dimensions.
+* Identify high-performing products and regions.
+* Make informed strategic decisions using interactive visual analytics.
+
+---
+
+## 🚀 Skills Gained :
+
+* SQL for Business Analytics
+* Data Cleaning & Transformation
+* Data Aggregation & Reporting
+* Power BI Dashboard Development
+* KPI Design & Visualization
+* Business Intelligence
+* Exploratory Data Analysis (EDA)
+* Data-Driven Decision Making
+
+---
+
+## 📜 License :
+
+This project is intended for educational and portfolio purposes only.
