@@ -62,7 +62,7 @@ This project showcases practical SQL skills used in real-world business analytic
 # 📈 Dashboard Preview :
 
 <p align="center">
-<img width="1327" height="754" alt="Retail Sales Dashboard" src="https://github.com/user-attachments/assets/45e05f0b-2665-40b3-88bb-320776fea31a">
+<img width="1334" height="765" alt="Dashboard" src="https://github.com/user-attachments/assets/c232a47e-5d98-4801-a868-f1809e38c36e" />
 </p>
 
 ---
